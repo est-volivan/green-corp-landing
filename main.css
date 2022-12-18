@@ -57,6 +57,7 @@ body {
     }
   }
   .about {
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -466,4 +467,10 @@ body {
 .promo__text button i {
   font-size: 15px;
   margin-left: 5px;
+}
+.orb-canvas{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
 }
